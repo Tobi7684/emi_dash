@@ -1,0 +1,19 @@
+[project]
+name = "emi-dash"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Tobi", email = "AtlanII@gmx.de" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "reflex>=0.6.8",
+]
+
+[project.scripts]
+emi-dash = "emi_dash:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
